@@ -124,7 +124,7 @@ const TableHeader = (props: TableHeaderProps) => {
     >
       <SearchComponent
         value={props.searchKey}
-        placeholder="Search..."
+        placeholder="Szukaj..."
         onSearch={props.searchTableData}
       />
       <CommonFunctionsMenuWrapper tableSizes={props.tableSizes}>
